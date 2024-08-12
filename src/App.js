@@ -8,16 +8,19 @@ import DocTitleTwo from "./hooks/DocTitleTwo";
 import CounterOne from "./hooks/CounterOne";
 import CounterTwo from "./hooks/CounterTwo";
 //npm i react-redux
+// npm i --save redux-logger
+
+//npm install  @redux-devtools/extension
 function App() {
   return (
-    // <Provider store={store}>
+     <Provider store={store}>
       <div className="App">
-      <CounterOne/>
-      <CounterTwo/>
-        {/* <CakeContainer />
-        <HooksCakeContainer /> */}
+      {/* <CounterOne/>
+      <CounterTwo/> */}
+        <CakeContainer />
+        <HooksCakeContainer />
       </div>
-    // </Provider>
+     </Provider>
   );
 }
 
