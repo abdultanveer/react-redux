@@ -8,6 +8,7 @@ import DocTitleTwo from "./hooks/DocTitleTwo";
 import CounterOne from "./hooks/CounterOne";
 import CounterTwo from "./hooks/CounterTwo";
 import NewCakeContainer from "./components/NewCakeContainer";
+import ItemContainer from "./components/ItemContainer";
 //npm i react-redux
 // npm i --save redux-logger
 
@@ -18,7 +19,8 @@ function App() {
       <div className="App">
         {/* <CounterOne/>
       <CounterTwo/> */}
-        <NewCakeContainer />
+        <NewCakeContainer  />
+        <ItemContainer item ="cake"/>
         {/* <CakeContainer />
         <HooksCakeContainer /> */}
       </div>
