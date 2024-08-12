@@ -1,12 +1,11 @@
-import { BUY_CAKE } from "./cakeTypes";
-
+import { BUY_ICECREAM } from "./icecreamTypes"
 /**
  * This is buycake action creator
  * @see https://stackoverflow.com
  * @returns this returns buy cake string
  */
-export const buyCake = () => {
+export const buyIcecream = () => {
     return {
-        type: BUY_CAKE
+        type: BUY_ICECREAM
     }
 }
