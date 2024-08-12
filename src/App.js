@@ -7,7 +7,7 @@ import DocTitleOne from "./hooks/DocTitleOne";
 import DocTitleTwo from "./hooks/DocTitleTwo";
 import CounterOne from "./hooks/CounterOne";
 import CounterTwo from "./hooks/CounterTwo";
-import { NewCakeContainer } from "./components/NewCakeContainer";
+import NewCakeContainer from "./components/NewCakeContainer";
 //npm i react-redux
 // npm i --save redux-logger
 
