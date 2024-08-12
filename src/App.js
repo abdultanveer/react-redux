@@ -11,8 +11,10 @@ import NewCakeContainer from "./components/NewCakeContainer";
 import ItemContainer from "./components/ItemContainer";
 //npm i react-redux
 // npm i --save redux-logger
-
+//npm install redux-thunk 
 //npm install  @redux-devtools/extension
+//npm install axios
+
 function App() {
   return (
     <Provider store={store}>
