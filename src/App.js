@@ -20,7 +20,7 @@ function App() {
         {/* <CounterOne/>
       <CounterTwo/> */}
         <NewCakeContainer  />
-        <ItemContainer item ="cake"/>
+        <ItemContainer iceCream/>
         {/* <CakeContainer />
         <HooksCakeContainer /> */}
       </div>

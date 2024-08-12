@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
  function ItemContainer(props) {
   return (
     <div>
-        <h2>Item - {props.item}</h2>
+        <h2>Own Item - {props.item}</h2>
     </div>
   )
 }
