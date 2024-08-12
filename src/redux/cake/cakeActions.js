@@ -5,8 +5,10 @@ import { BUY_CAKE } from "./cakeTypes";
  * @see https://stackoverflow.com
  * @returns this returns buy cake string
  */
-export const buyCake = () => {
+export const buyCake = (number =1) => {
     return {
-        type: BUY_CAKE
+        type: BUY_CAKE,
+        payload: number
+
     }
 }

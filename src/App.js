@@ -7,20 +7,22 @@ import DocTitleOne from "./hooks/DocTitleOne";
 import DocTitleTwo from "./hooks/DocTitleTwo";
 import CounterOne from "./hooks/CounterOne";
 import CounterTwo from "./hooks/CounterTwo";
+import { NewCakeContainer } from "./components/NewCakeContainer";
 //npm i react-redux
 // npm i --save redux-logger
 
 //npm install  @redux-devtools/extension
 function App() {
   return (
-     <Provider store={store}>
+    <Provider store={store}>
       <div className="App">
-      {/* <CounterOne/>
+        {/* <CounterOne/>
       <CounterTwo/> */}
-        <CakeContainer />
-        <HooksCakeContainer />
+        <NewCakeContainer />
+        {/* <CakeContainer />
+        <HooksCakeContainer /> */}
       </div>
-     </Provider>
+    </Provider>
   );
 }
 
