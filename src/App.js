@@ -9,9 +9,10 @@ import CounterOne from "./hooks/CounterOne";
 import CounterTwo from "./hooks/CounterTwo";
 import NewCakeContainer from "./components/NewCakeContainer";
 import ItemContainer from "./components/ItemContainer";
+import UserContainer from "./components/UserContainer";
 //npm i react-redux
 // npm i --save redux-logger
-//npm install redux-thunk 
+//npm install redux-thunk
 //npm install  @redux-devtools/extension
 //npm install axios
 
@@ -19,11 +20,12 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
+        <UserContainer />
         {/* <CounterOne/>
-      <CounterTwo/> */}
+      <CounterTwo/>
         <NewCakeContainer  />
         <ItemContainer iceCream/>
-        {/* <CakeContainer />
+        <CakeContainer />
         <HooksCakeContainer /> */}
       </div>
     </Provider>
